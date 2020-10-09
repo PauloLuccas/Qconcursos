@@ -44,10 +44,10 @@ Abra o terminal do seu sistema operacional e execute os seguintes comandos:
   cd Trigg
 
   # Instalar as dependências
-  yarn install
+  npm install
 
   # Iniciar o projeto
-  yarn start
+  npm start
 ```
 
 Desenvolvido com 💜 por Paulo Luccas 🧑🏽‍🚀
