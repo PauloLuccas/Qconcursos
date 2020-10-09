@@ -1,0 +1,143 @@
+.challenge {
+    background-color: #EBF6EE;
+    max-width: 1366px;
+    width: 100%;
+    padding-bottom: 8rem;
+}
+
+.challenge h1 {
+    padding: 7rem 0 3rem 0;
+    text-align: center;
+    font-size: 2.7rem;
+}
+
+.repositories {
+    max-width: 46rem;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    box-shadow: 0px 5px 17px -2px rgba(0,0,0, .75);
+}
+
+.repositories .left #avatar {
+    width: 10.56rem;
+    height: 10.56rem;
+    background-color: #eee;
+    border-radius: 7rem;
+    margin: 2rem;
+}
+
+.repositories .left p#profile {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.89rem;
+    cursor: pointer;
+}
+
+.repositories .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.repositories .right .text-profile {
+    margin: 2.5rem 2.5rem 1.5rem 2.5rem;
+}
+
+.repositories .right .text-profile p {
+    margin: 1rem;
+    text-transform: uppercase;
+    font-size: 0.89rem;
+    font-weight: 900;
+}
+
+.repositories .right .text-profile span#user {
+    text-transform: none;
+}
+
+.repositories p#followers {
+    margin-bottom: 1rem;
+}
+
+.repositories .right .containerButtons {
+    display: flex;
+    flex-direction: row;
+}
+
+.repositories .right .buttons label,
+.repositories .right .buttons-fav label{
+    width: 10rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    border: 3px solid #568b65;
+    text-transform: uppercase;
+    color: #568b65;
+    font-weight: bold;
+    margin: 0 0 3.5rem 3.5rem;
+}
+
+.repositories .right .buttons label:hover,
+.repositories .right .buttons-fav lavel:hover {
+    background-color: #EBF6EE;
+}
+
+#view_repositories,
+#view_favorites {
+    display: none;
+}
+
+.buttons label,
+.buttons-fav label {
+    -webkit-appearance: push-button;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.buttons #listOfRepositories,
+.buttons-fav #listOfFavorites {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+#view_repositories:checked ~ #listOfRepositories,
+#view_favorites:checked ~ #listOfFavorites {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 3.5rem -10.8rem;
+}
+
+#view_favorites:checked ~ #listOfFavorites {
+    margin: 0 0 3.5rem -25rem!important;
+}
+
+#view_repositories:checked ~ #listOfRepositories {
+    margin-right: -13rem;
+}
+
+.buttons #listOfRepositories h3,
+.buttons-fav #listOfFavorites h3 {
+    margin-bottom: 1.5rem;
+}
+
+.buttons #listOfRepositories span,
+.buttons-fav #listOfFavorites span {
+    padding: 0.5rem 29rem 0.5rem 0.5rem;
+}
+
+.buttons #listOfRepositories span.n1,
+.buttons-fav #listOfFavorites span.n1,
+.buttons #listOfRepositories span.n3,
+.buttons-fav #listOfFavorites span.n3,
+.buttons #listOfRepositories span.n5,
+.buttons #listOfRepositories span.n7 {
+    background: #82ec9e;
+}

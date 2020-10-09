@@ -1,0 +1,44 @@
+.menu {
+    position: absolute;
+    top: 0;
+    display: flex;
+    max-width: 1366px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2.8rem;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu p,
+.banner-text h1,
+.banner-text p {
+    color: #fff;
+}
+
+.menu .logo {
+    margin-left: 3rem;
+}
+
+.menu .home {
+    margin-left: 44rem;
+}
+
+.menu .desafio {
+    margin-right: 4rem;
+}
+
+@media (max-width: 1086px) {
+    .menu .home {
+        margin-left: auto;
+    }
+
+    .home,
+    .sobre {
+        margin-right: 2rem;
+    }
+}

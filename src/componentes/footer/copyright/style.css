@@ -1,0 +1,11 @@
+.footer-principal {
+    background-color: #373737;
+    width: 100%;
+    height: 5.5rem;
+}
+
+.copyright p {
+    text-align: center;
+    color: #fff;
+    padding-top: 2.4rem;
+}

@@ -1,0 +1,19 @@
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+}
+
+.socials a {
+    font-size: 2.5rem;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.socials .facebook,
+.socials .linkedin {
+    margin-right: 1.2rem;
+}

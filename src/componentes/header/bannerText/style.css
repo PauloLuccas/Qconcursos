@@ -1,0 +1,23 @@
+.banner-text {
+    position: absolute;
+    top: 0;
+    left: 16rem;
+    font-size: 1.6rem;
+    margin-top: 20rem;
+    color: #fff;
+    letter-spacing: 0.5rem;
+}
+
+.banner-text p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1084px) {
+    .banner-text {
+        position: relative;
+        left: 0;
+        text-align: center;
+        margin-left: auto;
+    }
+}

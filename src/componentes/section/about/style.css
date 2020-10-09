@@ -1,0 +1,23 @@
+.about-text h1 {
+    margin: 7rem 0 3rem 0;
+    text-align: center;
+    font-size: 2.7rem;
+}
+
+.about-text p {
+    font-weight: 100;
+    max-width: 53rem;
+    margin: 0 auto;
+    line-height: 1.59rem;
+    padding-bottom: 1rem;
+}
+
+.about-text p.end {
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 969px) {
+    .about-text p {
+        margin: 0 3rem 0 3rem;
+    }
+}
